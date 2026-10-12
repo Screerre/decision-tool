@@ -1,0 +1,13 @@
+Dépose ici un fichier par sous-jacent (CSV ou Excel) avec les colonnes Date, Open, High, Low, Close.
+Une ligne de titre avant l'en-tête est acceptée. Le séparateur ; ou , et la virgule décimale sont gérés.
+
+Historique journalier complet d'un indice sur Stooq (télécharge le fichier dans ton navigateur) :
+  DAX        https://stooq.com/q/d/l/?s=^dax&i=d
+  CAC 40     https://stooq.com/q/d/l/?s=^cac&i=d
+  S&P 500    https://stooq.com/q/d/l/?s=^spx&i=d
+  Nasdaq 100 https://stooq.com/q/d/l/?s=^ndx&i=d
+Attention : en tapant "S&P" sur Stooq, on peut tomber sur l'action S&P Global (SPGI) et non sur l'indice.
+Vérifie que les prix sont de l'ordre de plusieurs milliers de points.
+
+Garde le fichier à jour : l'outil prend la dernière ligne comme "veille". Sinon, colle les séances manquantes
+dans la barre latérale de l'application.
